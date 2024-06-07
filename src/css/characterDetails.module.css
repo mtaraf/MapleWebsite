@@ -1,0 +1,23 @@
+.card {
+  width: 400px;
+  display: flex;
+  background-color: aqua;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 50px;
+  height: 200px;
+}
+
+.image {
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.details {
+  margin: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}

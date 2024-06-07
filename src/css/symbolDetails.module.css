@@ -1,0 +1,9 @@
+.main {
+  display: grid;
+  margin-left: 50px;
+  height: 50%;
+}
+
+span {
+  margin-top: 10px;
+}

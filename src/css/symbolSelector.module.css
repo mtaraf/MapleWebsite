@@ -1,0 +1,16 @@
+.list {
+  display: grid;
+  width: 20px;
+}
+
+.symbolButton {
+  border: none;
+  border-radius: 5px;
+  background-color: #535151;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.symbolButton:hover {
+  border: 1px solid salmon;
+}

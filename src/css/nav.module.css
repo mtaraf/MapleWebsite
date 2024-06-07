@@ -1,0 +1,19 @@
+.nav {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  color: #393e46;
+  text-align: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  background-color: #535151;
+}
+
+.title {
+  padding-right: 20px;
+}
+
+.pages {
+  display: flex;
+  margin-left: 20px;
+}

@@ -1,0 +1,15 @@
+.button {
+  padding: 5px;
+  background-color: #535151;
+  border: none;
+  font-size: 1em;
+  color: rgb(184, 183, 183);
+  font-family: Arial, Helvetica, sans-serif;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.button:hover {
+  border-bottom: 1px solid whitesmoke;
+  color: whitesmoke;
+}
