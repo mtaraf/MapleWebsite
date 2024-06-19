@@ -1,4 +1,4 @@
-import styles from "../css/symbolSelector.module.css";
+import styles from "../../css/symbolSelector.module.css";
 
 export default function SymbolSelector({ images, setCurrentSymbol }) {
   function ChangeCurrentSymbol(symbol) {

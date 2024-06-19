@@ -10,6 +10,7 @@ export default function Nav({ setState }) {
       </div>
       <div className={styles.pages}>
         <NavButton title={"Dailies"} setState={setState} />
+        <NavButton title={"Weeklies"} setState={setState} />
         <NavButton title={"Calculators"} setState={setState} />
       </div>
       <div>

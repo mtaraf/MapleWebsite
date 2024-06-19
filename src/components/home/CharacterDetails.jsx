@@ -1,12 +1,12 @@
-import defaultChar from "../assets/images/mapleChar.jpg";
-import styles from "../css/characterDetails.module.css";
+import defaultChar from "../../assets/images/mapleChar.jpg";
+import styles from "../../css/characterDetails.module.css";
 import ArcaneSymbols from "./ArcaneSymbols";
-import Equipment from "./Equipment";
+import Nodes from "./Nodes";
 
 export default function CharacterDetails() {
   return (
-    <div>
-      <div className={styles.card}>
+    <div className={styles.mainCard}>
+      <div className={styles.characterCard}>
         <img className={styles.image} src={defaultChar} alt="" />
         <div className={styles.information}>
           <h3>Name</h3>
@@ -17,7 +17,7 @@ export default function CharacterDetails() {
 
       <div className={styles.details}>
         <div>
-          <Equipment />
+          <Nodes />
         </div>
         <div>
           <ArcaneSymbols />

@@ -1,0 +1,13 @@
+.nodeList {
+  margin: 15px 0;
+  display: flex;
+}
+
+.image {
+  width: auto;
+  margin-right: 15px;
+}
+
+.nodeDetails {
+  margin-top: 5px;
+}

@@ -1,4 +1,4 @@
-import styles from "../css/symbolDetails.module.css";
+import styles from "../../css/symbolDetails.module.css";
 
 export default function SymbolDetails() {
   return (

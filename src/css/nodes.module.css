@@ -1,5 +1,5 @@
 .mainCard {
-  width: 300px;
+  width: 400px;
   height: 350px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
@@ -8,14 +8,17 @@
   display: block;
 }
 
-.symbols {
-  display: flex;
-  margin: 10px 15px;
-}
-
 .title {
   font-weight: bold;
   text-align: center;
   font-size: 1.7em;
   padding-top: 10px;
+}
+
+.details {
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
 }

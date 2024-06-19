@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
-import Nav from "./components/Nav";
-import Home from "./components/Home";
-import Dailes from "./components/Dailes";
-import Calculators from "./components/Calculators";
-import "./css/App.css";
+import Nav from "./Nav";
+import Home from "./home/Home";
+import Dailes from "./dailies/Dailes";
+import Calculators from "./calculators/Calculators";
+import "../css/App.css";
+import Weeklies from "./weeklies/Weeklies";
 
 function App() {
   const [state, setState] = useState("Maple Home");
@@ -17,6 +18,8 @@ function App() {
           <Home />
         ) : state === "Dailies" ? (
           <Dailes />
+        ) : state === "Weeklies" ? (
+          <Weeklies />
         ) : (
           <Calculators />
         )}
