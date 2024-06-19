@@ -29,6 +29,19 @@ export default function Weeklies() {
     { name: "Normal Cygnus", image: cygnus, mesos: 14450000 },
   ];
 
+  const bossListTwo = [
+    { name: "Chaos Pink Bean", image: pinkBean, mesos: 12800000 },
+    { name: "Chaos Zakum", image: zakum, mesos: 16200000 },
+    { name: "Hard Magnus", image: magnus, mesos: 19012500 },
+    { name: "Hard Hilla", image: hilla, mesos: 11250000 },
+    { name: "Chaos Papulatus", image: pap, mesos: 26450000 },
+    { name: "Chaos Crimson Queen", image: queen, mesos: 16200000 },
+    { name: "Chaos Pierre", image: pierre, mesos: 16200000 },
+    { name: "Chaos Von Bon", image: vonBon, mesos: 16200000 },
+    { name: "Chaos Vellum", image: vellum, mesos: 21012500 },
+    { name: "Normal Cygnus", image: cygnus, mesos: 14450000 },
+  ];
+
   return (
     <div className={styles.mainCard}>
       <div className={styles.bossing}>
