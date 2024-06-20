@@ -1,4 +1,4 @@
-import styles from "../../css/nodes.module.css";
+import styles from "../../css/home/nodes.module.css";
 import NodeItem from "./NodeItem";
 import NodeList from "./NodeList";
 

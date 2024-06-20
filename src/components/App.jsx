@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Nav from "./Nav";
 import Home from "./home/Home";
-import Dailes from "./dailies/Dailes";
+import Dailies from "./dailies/Dailies";
 import Calculators from "./calculators/Calculators";
 import "../css/App.css";
 import Weeklies from "./weeklies/Weeklies";
@@ -17,7 +17,7 @@ function App() {
         {state === "Maple Home" ? (
           <Home />
         ) : state === "Dailies" ? (
-          <Dailes />
+          <Dailies />
         ) : state === "Weeklies" ? (
           <Weeklies />
         ) : (

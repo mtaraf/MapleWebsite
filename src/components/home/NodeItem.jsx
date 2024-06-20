@@ -1,4 +1,4 @@
-import styles from "../../css/nodeItem.module.css";
+import styles from "../../css/home/nodeItem.module.css";
 import chainLightning from "../../assets/images/chain-lightning.jpg";
 
 export default function NodeItem({ characterClass }) {

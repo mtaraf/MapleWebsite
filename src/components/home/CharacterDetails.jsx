@@ -1,5 +1,5 @@
 import defaultChar from "../../assets/images/mapleChar.jpg";
-import styles from "../../css/characterDetails.module.css";
+import styles from "../../css/home/characterDetails.module.css";
 import ArcaneSymbols from "./ArcaneSymbols";
 import Nodes from "./Nodes";
 

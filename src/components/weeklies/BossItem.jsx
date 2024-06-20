@@ -1,4 +1,4 @@
-import styles from "../../css/bossItem.module.css";
+import styles from "../../css/weeklies/bossItem.module.css";
 
 export default function BossItem({
   image,

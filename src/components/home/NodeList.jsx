@@ -1,4 +1,4 @@
-import styles from "../../css/nodeList.module.css";
+import styles from "../../css/home/nodeList.module.css";
 import NodeItem from "./NodeItem";
 
 export default function NodeList({ title }) {

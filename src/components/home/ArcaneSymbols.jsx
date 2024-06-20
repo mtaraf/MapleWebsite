@@ -1,10 +1,10 @@
-import styles from "../../css/arcaneSymbols.module.css";
-import vanishing from "../../assets/images/vanishing.jpg";
-import chu from "../../assets/images/chu_chu.jpg";
-import lach from "../../assets/images/lachelein.jpg";
-import morass from "../../assets/images/morass.jpg";
-import esfera from "../../assets/images/esfera.jpg";
-import arcana from "../../assets/images/arcana.jpg";
+import styles from "../../css/home/arcaneSymbols.module.css";
+import vanishing from "../../assets/images/symbols/vanishing.jpg";
+import chu from "../../assets/images/symbols/chu_chu.jpg";
+import lach from "../../assets/images/symbols/lachelein.jpg";
+import morass from "../../assets/images/symbols/morass.jpg";
+import esfera from "../../assets/images/symbols/esfera.jpg";
+import arcana from "../../assets/images/symbols/arcana.jpg";
 import SymbolDetails from "./SymbolDetails";
 import SymbolSelector from "./SymbolSelector";
 import { useState } from "react";

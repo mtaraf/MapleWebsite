@@ -12,6 +12,11 @@
   overflow: hidden;
 }
 
+.header {
+  height: 10%;
+  border-bottom: 1px solid black;
+}
+
 .title {
   font-weight: bold;
   text-align: center;
